@@ -11,6 +11,7 @@
 		2D635A742BC7BC850028FD99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D635A732BC7BC850028FD99 /* ContentView.swift */; };
 		2D635A762BC7BC860028FD99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D635A752BC7BC860028FD99 /* Assets.xcassets */; };
 		2D635A792BC7BC860028FD99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D635A782BC7BC860028FD99 /* Preview Assets.xcassets */; };
+		2D635A802BC7BD860028FD99 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D635A7F2BC7BD860028FD99 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		2D635A732BC7BC850028FD99 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2D635A752BC7BC860028FD99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D635A782BC7BC860028FD99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D635A7F2BC7BD860028FD99 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				2D635A712BC7BC850028FD99 /* CameraZoomSampleApp.swift */,
 				2D635A732BC7BC850028FD99 /* ContentView.swift */,
+				2D635A7F2BC7BD860028FD99 /* ViewModel.swift */,
 				2D635A752BC7BC860028FD99 /* Assets.xcassets */,
 				2D635A772BC7BC860028FD99 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D635A742BC7BC850028FD99 /* ContentView.swift in Sources */,
+				2D635A802BC7BD860028FD99 /* ViewModel.swift in Sources */,
 				2D635A722BC7BC850028FD99 /* CameraZoomSampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +279,7 @@
 				DEVELOPMENT_TEAM = FRBYK4548E;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Use Camera for Test";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +309,7 @@
 				DEVELOPMENT_TEAM = FRBYK4548E;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Use Camera for Test";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
